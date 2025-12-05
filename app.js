@@ -13,7 +13,7 @@ app.use(express.urlencoded({extended:true}));
 
 
 
-const PORT =1010;
+
 
 const connectdb=require('./db/db');
 
