@@ -10,11 +10,6 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(express.urlencoded({extended:true}));
 
-
-
-
-
-
 const connectdb=require('./db/db');
 
 connectdb();
